@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling navbar */
+
+.navi {
+  font-size: 30px;
+  width: 100vw;
+  background-color: chocolate;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* styling app component */
+
+.main_div {
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-color: chocolate;
+  margin: auto;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px gray; */
+}
+
+.number {
+  text-align: center;
+  margin: 25px;
+  font-size: 30px;
+}
+
+.btn_layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  background: none;
+  border-style: solid;
+  border-color: chocolate;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  box-shadow: -3px 3px grey;
+}
+
+.statement {
+  margin: auto;
+  margin-top: 35px;
+  text-align: center;
+  font-size: 20px;
+}
